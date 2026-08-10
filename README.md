@@ -68,16 +68,26 @@ Under the hood, a Flask backend runs OpenCV + MediaPipe hand tracking on every c
 
 <div align="center">
 
-<img src="assets/demo.gif" width="720" alt="0xAirCanvas demo — air-drawing in real time"/>
+<img src="https://placehold.co/720x405/0b1220/00e5ff?text=Add+assets%2Fdemo.gif&font=jetbrains-mono" width="720" alt="Demo placeholder — replace with assets/demo.gif"/>
 
-*Record this yourself after running the app locally — see [`assets/README.md`](assets/README.md) for a quick guide. No fabricated media is included here.*
+*No real demo is included yet — record one after running the app locally (see [`assets/README.md`](assets/README.md)), save it as `assets/demo.gif`, then replace the placeholder line above with:*
+```md
+<img src="assets/demo.gif" width="720" alt="0xAirCanvas demo — air-drawing in real time"/>
+```
 
 </div>
 
 ## 📸 Preview
 
 <div align="center">
+
+<img src="https://placehold.co/720x405/0b1220/a855f7?text=Add+assets%2Fpreview.png&font=jetbrains-mono" width="720" alt="Preview placeholder — replace with assets/preview.png"/>
+
+*Add a real screenshot as `assets/preview.png` (see [`assets/README.md`](assets/README.md)), then swap the placeholder line above for:*
+```md
 <img src="assets/preview.png" width="720" alt="0xAirCanvas workspace preview"/>
+```
+
 </div>
 
 <div align="center">
