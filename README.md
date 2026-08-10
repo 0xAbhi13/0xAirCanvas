@@ -1,1124 +1,376 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:A855F7&height=220&section=header&text=0xAirCanvas&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Write%20in%20the%20air.%20Create%20without%20touching%20the%20screen.&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
+<br/>
 
-\# 🖐️ 0xAirCanvas
+<a href="https://github.com/0xAbhi13/0xAirCanvas">
+  <img src="https://readme-typing-svg.demolab.com/?lines=%E2%98%9D%EF%B8%8F+Raise+your+finger...;%E2%9C%8D%EF%B8%8F+The+webcam+becomes+a+pen...;%F0%9F%8E%A8+Draw+in+mid-air...;%E2%9C%A8+No+stylus.+No+mouse.+No+touch.;%F0%9F%9A%80+Just+you%2C+your+hand%2C+and+a+camera.&font=JetBrains%20Mono&center=true&width=680&height=45&duration=2600&pause=900&color=00E5FF&vCenter=true&size=22" alt="Typing SVG" />
+</a>
 
+<br/><br/>
 
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-3.0-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.10-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![MediaPipe](https://img.shields.io/badge/MediaPipe-Hands-00E5FF?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/mediapipe)
+[![License: MIT](https://img.shields.io/badge/License-MIT-34D399?style=for-the-badge)](LICENSE)
 
-\### ✨ \*\*Write in the Air. Create Without Touch.\*\*
+![Stars](https://img.shields.io/github/stars/0xAbhi13/0xAirCanvas?style=for-the-badge&color=fbbf24&logo=github)
+![Forks](https://img.shields.io/github/forks/0xAbhi13/0xAirCanvas?style=for-the-badge&color=f472b6&logo=github)
+![Last Commit](https://img.shields.io/github/last-commit/0xAbhi13/0xAirCanvas?style=for-the-badge&color=a855f7)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-34D399?style=for-the-badge)
 
+<br/>
 
-
-\*\*A futuristic computer-vision canvas that turns your webcam into a digital pen.\*\*
-
-
-
-<br>
-
-
-
-<img src="https://img.shields.io/badge/Python-3.x-00fff7?style=for-the-badge\&logo=python\&logoColor=white" />
-
-<img src="https://img.shields.io/badge/Flask-Web\_App-00fff7?style=for-the-badge\&logo=flask\&logoColor=white" />
-
-<img src="https://img.shields.io/badge/OpenCV-Computer\_Vision-00fff7?style=for-the-badge\&logo=opencv\&logoColor=white" />
-
-<img src="https://img.shields.io/badge/MediaPipe-Hand\_Tracking-00fff7?style=for-the-badge" />
-
-
-
-<br><br>
-
-
-
-<img src="https://img.shields.io/github/stars/0xAbhi13/0xAirCanvas?style=for-the-badge\&logo=github\&label=STARS" />
-
-<img src="https://img.shields.io/github/forks/0xAbhi13/0xAirCanvas?style=for-the-badge\&logo=github\&label=FORKS" />
-
-<img src="https://img.shields.io/github/license/0xAbhi13/0xAirCanvas?style=for-the-badge\&label=LICENSE" />
-
-
-
-<br><br>
-
-
-
-> \*\*Your hand is the controller.
-
-> The air is the canvas.\*\*
-
-
-
-<br>
-
-
-
-\*\*Created by \[Abhishek Jadhav](https://github.com/0xAbhi13) · \[@0xAbhi13](https://github.com/0xAbhi13)\*\*
-
-
+**Created by Abhishek Jadhav — [@0xAbhi13](https://github.com/0xAbhi13)**
 
 </div>
 
-
-
-\---
-
-
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
 <div align="center">
 
+### 📚 Table of Contents
 
-
-\## 🖥️ `SYSTEM ONLINE`
-
-
-
-```text
-
-╔══════════════════════════════════════════════════════════╗
-
-║                    0xAirCanvas OS                       ║
-
-╠══════════════════════════════════════════════════════════╣
-
-║  > Booting vision engine...                    \[ OK ]   ║
-
-║  > Connecting webcam...                        \[ OK ]   ║
-
-║  > Loading MediaPipe...                        \[ OK ]   ║
-
-║  > Initializing gesture engine...              \[ OK ]   ║
-
-║  > Starting drawing engine...                  \[ OK ]   ║
-
-║  > Canvas interface online...                  \[ OK ]   ║
-
-║                                                          ║
-
-║             🖐️ AIR INTERFACE READY                      ║
-
-╚══════════════════════════════════════════════════════════╝
-
-```
-
-
+[⚡ About](#-what-is-0xaircanvas) • [🎥 Demo](#-demo) • [✨ Features](#-features) • [🕹️ Gestures](#️-gesture-guide) • [🧠 How It Works](#-how-it-works) • [📦 Install](#-installation) • [▶️ Usage](#️-usage) • [⌨️ Shortcuts](#️-keyboard-shortcuts) • [🗂️ Structure](#️-project-structure) • [🛣️ Roadmap](#️-future-roadmap) • [📄 License](#-license)
 
 </div>
 
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
+## ⚡ What is 0xAirCanvas?
 
-\---
+**0xAirCanvas** turns your webcam into a pen. Raise your index finger, move it through the air, and watch your fingertip become a smooth, glowing stroke on a live digital canvas — no stylus, no touchscreen, no mouse.
 
-
-
-\# ⚡ What is 0xAirCanvas?
-
-
-
-\*\*0xAirCanvas\*\* transforms your webcam into a touch-free digital drawing interface.
-
-
-
-Simply raise your \*\*index finger\*\*, move it through the air, and your fingertip becomes a virtual brush.
-
-
-
-No mouse.
-
-No stylus.
-
-No touchscreen.
-
-
-
-Just your \*\*hand + webcam + imagination\*\*.
-
-
-
-The application combines \*\*Flask, OpenCV, MediaPipe and HTML5 Canvas\*\* to detect hand landmarks, understand gestures, smooth fingertip movement and render digital strokes in real time.
-
-
-
-\---
-
-
-
-\# 🎥 Experience the Interface
-
-
+Under the hood, a Flask backend runs OpenCV + MediaPipe hand tracking on every camera frame, classifies your hand into one of four gestures, and streams the resulting drawing events straight into a browser `<canvas>` in real time.
 
 <div align="center">
 
-
-
-\### 🖐️ `DRAW WITHOUT TOUCHING`
-
-
-
 ```text
-
-&#x20;            WEBCAM
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;       ┌───────────────┐
-
-&#x20;       │   YOUR HAND   │
-
-&#x20;       └───────┬───────┘
-
-&#x20;               │
-
-&#x20;        ☝️ INDEX FINGER
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;       ┌───────────────┐
-
-&#x20;       │   TRACKING    │
-
-&#x20;       │   + GESTURE   │
-
-&#x20;       └───────┬───────┘
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;       ┌───────────────┐
-
-&#x20;       │  AIR CANVAS   │
-
-&#x20;       │               │
-
-&#x20;       │    ✨ DRAW ✨   │
-
-&#x20;       └───────────────┘
-
+> Initializing 0xAirCanvas...
+> Camera connected            ✓
+> MediaPipe initialized       ✓
+> Hand detected               ✓
+> Gesture engine online       ✓
+> AirCanvas ready. Start drawing ☝️
 ```
-
-
-
-> 🎬 \*\*Demo:\*\* Add your recorded `assets/demo.gif` here once available.
-
-
 
 </div>
 
+<br/>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/pixel-line.gif" width="100%">
+</div>
 
-\---
+## 🎥 Demo
 
+<div align="center">
 
+<img src="assets/demo.gif" width="720" alt="0xAirCanvas demo — air-drawing in real time"/>
 
-\# ✨ Features
+*Record this yourself after running the app locally — see [`assets/README.md`](assets/README.md) for a quick guide. No fabricated media is included here.*
 
+</div>
 
+## 📸 Preview
+
+<div align="center">
+<img src="assets/preview.png" width="720" alt="0xAirCanvas workspace preview"/>
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/pixel-line.gif" width="100%">
+</div>
+
+## ✨ Features
 
 <table>
-
 <tr>
+<td width="33%" align="center">
 
-<td width="50%">
-
-
-
-\### 🖐️ Real-Time Hand Tracking
-
-
-
-Detects \*\*21 hand landmarks\*\* using MediaPipe and tracks your hand continuously through the webcam.
-
-
+### 🖐️
+**Real-Time Hand Tracking**
+21-point landmark detection powered by MediaPipe, live on every frame.
 
 </td>
+<td width="33%" align="center">
 
-
-
-<td width="50%">
-
-
-
-\### ✍️ Air Drawing
-
-
-
-Your index fingertip becomes a virtual pen for smooth, touch-free drawing.
-
-
+### ✍️
+**Air Writing**
+Your fingertip becomes a digital pen — smoothed, low-jitter strokes.
 
 </td>
+<td width="33%" align="center">
 
+### 🎨
+**Custom Brushes**
+Adjustable size, glowing neon-style strokes.
+
+</td>
 </tr>
-
-
-
 <tr>
+<td width="33%" align="center">
 
-<td>
-
-
-
-\### 🎨 Custom Brushes
-
-
-
-Adjust brush size and create glowing digital strokes.
-
-
+### 🌈
+**Multiple Colors**
+Seven-color palette, switch instantly mid-drawing.
 
 </td>
+<td width="33%" align="center">
 
-
-
-<td>
-
-
-
-\### 🌈 Multiple Colors
-
-
-
-Switch between multiple colors instantly while drawing.
-
-
+### 🧹
+**Smart Eraser**
+Same smoothing pipeline as the brush, adjustable size.
 
 </td>
+<td width="33%" align="center">
 
+### ↩️
+**Undo / Redo**
+Full history stack — step through every stroke.
+
+</td>
 </tr>
-
-
-
 <tr>
+<td width="33%" align="center">
 
-<td>
-
-
-
-\### 🧹 Smart Eraser
-
-
-
-Erase parts of your artwork using the same gesture-driven interface.
-
-
+### 💾
+**PNG Export**
+Save your artwork with one click or a shortcut.
 
 </td>
+<td width="33%" align="center">
 
-
-
-<td>
-
-
-
-\### ↩️ Undo / Redo
-
-
-
-Move backward and forward through your drawing history.
-
-
+### 📷
+**Camera Selector**
+Pick from any connected camera, hot-swap without restarting.
 
 </td>
+<td width="33%" align="center">
 
+### 📊
+**Live System HUD**
+Camera status, hand detection, gesture, FPS — always visible.
+
+</td>
 </tr>
-
-
-
-<tr>
-
-<td>
-
-
-
-\### 💾 PNG Export
-
-
-
-Save your finished artwork directly as a PNG image.
-
-
-
-</td>
-
-
-
-<td>
-
-
-
-\### 📊 Live HUD
-
-
-
-Monitor camera status, hand detection, gesture state and FPS.
-
-
-
-</td>
-
-</tr>
-
-
-
-<tr>
-
-<td>
-
-
-
-\### ✨ Futuristic Interface
-
-
-
-Glassmorphism, neon effects, animated HUD elements and a cyber-style visual system.
-
-
-
-</td>
-
-
-
-<td>
-
-
-
-\### 🔒 Local Processing
-
-
-
-Camera processing happens locally on your machine.
-
-
-
-</td>
-
-</tr>
-
 </table>
 
-
-
-\---
-
-
-
-\# 🕹️ Gesture Control System
-
-
-
 <div align="center">
 
+### 🔒 Local Camera Processing
 
-
-|       Gesture       | Action                   |
-
-| :-----------------: | :----------------------- |
-
-| ☝️ \*\*Index Finger\*\* | ✍️ Draw                  |
-
-|   ✋ \*\*Open Palm\*\*   | 🛑 Stop Drawing          |
-
-|      ✊ \*\*Fist\*\*     | 🧹 Clear Canvas          |
-
-|     🤏 \*\*Pinch\*\*    | 🔄 Toggle Brush / Eraser |
-
-
+All video processing happens on your machine. **Nothing is uploaded or stored.**
 
 </div>
 
-
-
-\### 🧠 Smart Gesture Debouncing
-
-
-
-The gesture engine doesn't immediately react to a single noisy frame.
-
-
-
-For example, the \*\*fist gesture must be held briefly\*\* before the canvas is cleared.
-
-
-
-This helps prevent accidental actions caused by temporary tracking noise.
-
-
-
-\---
-
-
-
-\# 🧠 How It Works
-
-
-
-```text
-
-&#x20;                   📷 WEBCAM
-
-&#x20;                       │
-
-&#x20;                       ▼
-
-&#x20;              ┌─────────────────┐
-
-&#x20;              │     OpenCV      │
-
-&#x20;              │ Frame Capture   │
-
-&#x20;              └────────┬────────┘
-
-&#x20;                       │
-
-&#x20;                       ▼
-
-&#x20;              ┌─────────────────┐
-
-&#x20;              │    MediaPipe    │
-
-&#x20;              │  Hand Tracking  │
-
-&#x20;              └────────┬────────┘
-
-&#x20;                       │
-
-&#x20;                       ▼
-
-&#x20;              ┌─────────────────┐
-
-&#x20;              │ 21 Hand         │
-
-&#x20;              │ Landmarks       │
-
-&#x20;              └────────┬────────┘
-
-&#x20;                       │
-
-&#x20;                       ▼
-
-&#x20;              ┌─────────────────┐
-
-&#x20;              │ Gesture Detector│
-
-&#x20;              └────────┬────────┘
-
-&#x20;                       │
-
-&#x20;                       ▼
-
-&#x20;              ┌─────────────────┐
-
-&#x20;              │ Fingertip       │
-
-&#x20;              │ Tracking        │
-
-&#x20;              └────────┬────────┘
-
-&#x20;                       │
-
-&#x20;                       ▼
-
-&#x20;              ┌─────────────────┐
-
-&#x20;              │ Coordinate      │
-
-&#x20;              │ Smoothing       │
-
-&#x20;              └────────┬────────┘
-
-&#x20;                       │
-
-&#x20;                       ▼
-
-&#x20;              ┌─────────────────┐
-
-&#x20;              │ Drawing Engine   │
-
-&#x20;              └────────┬────────┘
-
-&#x20;                       │
-
-&#x20;                       ▼
-
-&#x20;              ┌─────────────────┐
-
-&#x20;              │ HTML5 Canvas    │
-
-&#x20;              │ ✨ DIGITAL ART  │
-
-&#x20;              └─────────────────┘
-
+## 🕹️ Gesture Guide
+
+<div align="center">
+
+| Gesture | Icon | Action |
+|:---:|:---:|:---|
+| Index Finger | ☝️ | **Draw** |
+| Open Palm | ✋ | **Stop drawing** |
+| Fist *(hold)* | ✊ | **Clear canvas** |
+| Pinch | 🤏 | **Toggle brush / eraser** |
+
+</div>
+
+> Gestures are debounced — a fist must be held briefly before the canvas clears, so one noisy frame can't wipe your drawing.
+
+## 🧠 How It Works
+
+```mermaid
+flowchart TD
+    A[📷 Webcam Frame] --> B[🧠 MediaPipe Hand Landmarker]
+    B --> C[🖐️ 21 Hand Landmarks<br/>pixel + normalized coords]
+    C --> D[☝️ Fingertip Isolation<br/>+ Gesture Classification]
+    D --> E[📍 EMA Smoothing<br/>removes jitter]
+    E --> F[✍️ Drawing Engine<br/>start / move / end events]
+    F --> G[🎨 Browser Canvas<br/>rendered live via SSE]
+
+    style A fill:#0891b2,color:#fff
+    style B fill:#00e5ff,color:#04222b
+    style C fill:#0891b2,color:#fff
+    style D fill:#a855f7,color:#fff
+    style E fill:#0891b2,color:#fff
+    style F fill:#f472b6,color:#04222b
+    style G fill:#34d399,color:#04222b
 ```
 
+The camera frame streams to the browser as MJPEG (`/video_feed`); stroke and status events push over Server-Sent Events (`/api/events`) — so drawing is rendered entirely by the browser's Canvas API, staying smooth and independent of video frame rate.
 
-
-\### 🔥 Under the Hood
-
-
-
-1\. \*\*OpenCV\*\* captures frames from the webcam.
-
-2\. \*\*MediaPipe\*\* detects the hand and its 21 landmarks.
-
-3\. The \*\*gesture detector\*\* determines the current hand gesture.
-
-4\. The \*\*index fingertip\*\* is isolated as the drawing cursor.
-
-5\. Coordinate smoothing reduces unwanted jitter.
-
-6\. The \*\*drawing engine\*\* generates stroke events.
-
-7\. The browser renders those strokes on an \*\*HTML5 Canvas\*\*.
-
-
-
-\---
-
-
-
-\# 🧰 Tech Stack
-
-
+## 🧰 Tech Stack
 
 <div align="center">
 
-
-
-|      Technology     | Purpose                  |
-
-| :-----------------: | :----------------------- |
-
-|    🐍 \*\*Python\*\*    | Core application logic   |
-
-|     🌐 \*\*Flask\*\*    | Web application backend  |
-
-|    👁️ \*\*OpenCV\*\*   | Webcam \& computer vision |
-
-|  🖐️ \*\*MediaPipe\*\*  | Hand landmark detection  |
-
-|     🔢 \*\*NumPy\*\*    | Numerical processing     |
-
-| 🎨 \*\*HTML5 Canvas\*\* | Real-time drawing        |
-
-|   ⚡ \*\*JavaScript\*\*  | Frontend interaction     |
-
-|     🎨 \*\*CSS3\*\*     | Futuristic interface     |
-
-
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/-MediaPipe-00E5FF?style=flat-square&logo=google&logoColor=black)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5%20Canvas-E34F26?style=flat-square&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-Vanilla%20JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 </div>
 
+## 📦 Installation
 
+<details open>
+<summary><b>🖱️ Click to expand setup steps</b></summary>
 
-\---
+<br/>
 
-
-
-\# 📦 Installation
-
-
-
-\## 01 — Clone
-
-
+**1. Clone the repo**
 
 ```bash
-
 git clone https://github.com/0xAbhi13/0xAirCanvas.git
-
 cd 0xAirCanvas
-
 ```
 
-
-
-\## 02 — Create Virtual Environment
-
-
+**2. Create a virtual environment**
 
 ```bash
-
 python -m venv venv
-
 ```
 
-
-
-\### Windows
-
-
+<table>
+<tr><th>Windows</th><th>macOS / Linux</th></tr>
+<tr>
+<td>
 
 ```bash
-
-venv\\Scripts\\activate
-
+venv\Scripts\activate
 ```
 
-
-
-\## 03 — Install Dependencies
-
-
+</td>
+<td>
 
 ```bash
+source venv/bin/activate
+```
 
+</td>
+</tr>
+</table>
+
+**3. Install dependencies**
+
+```bash
 pip install -r requirements.txt
-
 ```
 
-
-
-\## 04 — Launch
-
-
+**4. Run**
 
 ```bash
-
 python app.py
-
 ```
 
+Then open the local Flask URL shown in your terminal (typically `http://127.0.0.1:5000`).
 
+> On first run, the hand-tracking model (~8 MB) downloads automatically and is cached locally.
 
-Then open the Flask URL shown in your terminal.
+</details>
 
-
-
-Usually:
-
-
+## ▶️ Usage
 
 ```text
-
-http://127.0.0.1:5000
-
+1. Launch the app and allow camera access when prompted.
+2. ☝️  Raise your index finger to start drawing.
+3. ✋  Open your palm to pause without erasing.
+4. ✊  Hold a fist briefly to clear the canvas.
+5. 🤏  Pinch to toggle between brush and eraser.
+6. 🎛️  Use the control panel or shortcuts for color, size, undo/redo, save.
+7. 📷  Pick a different camera anytime from the CAMERA panel.
 ```
 
-
-
-\---
-
-
-
-\# ▶️ Usage
-
-
-
-```text
-
-1\. Launch 0xAirCanvas
-
-&#x20;       ↓
-
-2\. Allow camera access
-
-&#x20;       ↓
-
-3\. Show your hand
-
-&#x20;       ↓
-
-4\. Raise your index finger
-
-&#x20;       ↓
-
-5\. Move your finger through the air
-
-&#x20;       ↓
-
-6\. Watch your artwork appear
-
-&#x20;       ↓
-
-7\. Save your creation as PNG
-
-```
-
-
-
-\### 💡 Quick Start
-
-
-
-\*\*☝️ Index finger → Draw\*\*
-
-
-
-\*\*✋ Open palm → Stop\*\*
-
-
-
-\*\*✊ Hold fist → Clear\*\*
-
-
-
-\*\*🤏 Pinch → Brush / Eraser\*\*
-
-
-
-\---
-
-
-
-\# ⌨️ Keyboard Controls
-
-
+## ⌨️ Keyboard Shortcuts
 
 <div align="center">
 
-
-
-|  Key  | Command       |
-
-| :---: | :------------ |
-
-|  `B`  | 🖌️ Brush     |
-
-|  `E`  | 🧹 Eraser     |
-
-|  `C`  | 🗑️ Clear     |
-
-|  `Z`  | ↩️ Undo       |
-
-|  `Y`  | ↪️ Redo       |
-
-|  `S`  | 💾 Save       |
-
-|  `H`  | ❓ Help        |
-
-| `ESC` | ❌ Close Modal |
-
-
+| Key | Action | Key | Action |
+|:---:|:---|:---:|:---|
+| <kbd>B</kbd> | Brush | <kbd>Z</kbd> | Undo |
+| <kbd>E</kbd> | Eraser | <kbd>Y</kbd> | Redo |
+| <kbd>C</kbd> | Clear | <kbd>S</kbd> | Save |
+| <kbd>H</kbd> | Help | <kbd>Esc</kbd> | Close modal |
 
 </div>
 
-
-
-\---
-
-
-
-\# 🗂️ Project Architecture
-
-
+## 🗂️ Project Structure
 
 ```text
-
 0xAirCanvas/
-
 │
-
-├── 🐍 app.py
-
+├── app.py                     # Flask app, camera loop, streaming routes
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
 │
-
-├── 📦 requirements.txt
-
-├── 📄 README.md
-
-├── 📜 LICENSE
-
-├── ⚙️ .gitignore
-
+├── vision/
+│   ├── __init__.py
+│   ├── hand_tracker.py        # MediaPipe Hands wrapper (legacy + Tasks API)
+│   ├── gesture_detector.py    # Gesture classification + debounce
+│   └── drawing_engine.py      # Smoothing + stroke event generation
 │
-
-├── 🧠 vision/
-
-│   ├── \_\_init\_\_.py
-
-│   ├── hand\_tracker.py
-
-│   ├── gesture\_detector.py
-
-│   └── drawing\_engine.py
-
-│
-
-├── 🌐 templates/
-
+├── templates/
 │   └── index.html
-
 │
-
-├── 🎨 static/
-
-│   ├── css/
-
-│   │   └── style.css
-
-│   │
-
-│   ├── js/
-
-│   │   └── app.js
-
-│   │
-
-│   └── assets/
-
-│       ├── logo.svg
-
-│       └── favicon.svg
-
+├── static/
+│   ├── css/style.css
+│   ├── js/app.js
+│   └── assets/{logo,favicon}.svg
 │
-
-└── 📸 assets/
-
-&#x20;   ├── demo.gif
-
-&#x20;   ├── screenshot.png
-
-&#x20;   └── preview.png
-
+└── assets/
+    ├── demo.gif                # add after recording locally
+    ├── screenshot.png          # add after recording locally
+    └── preview.png             # add after recording locally
 ```
 
+## 🔒 Privacy
 
+🔒 **Camera processing happens locally.** Your video is not uploaded or stored. 0xAirCanvas makes no network calls with your video data — everything runs inside your own Flask server and browser.
 
-\---
+## 🛣️ Future Roadmap
 
+- [ ] Multi-hand drawing
+- [ ] Air handwriting recognition
+- [ ] Shape recognition
+- [ ] AI-assisted drawing
+- [ ] Gesture-based shortcuts
+- [ ] Drawing replay
+- [ ] Advanced brush effects
+- [ ] Image import
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/pixel-line.gif" width="100%">
+</div>
 
-\# 🔐 Privacy First
-
-
-
-\### Your camera stays yours.
-
-
-
-0xAirCanvas processes the camera feed locally through your Flask application.
-
-
-
-```text
-
-📷 Camera
-
-&#x20;  │
-
-&#x20;  ▼
-
-💻 Your Computer
-
-&#x20;  │
-
-&#x20;  ├── OpenCV
-
-&#x20;  ├── MediaPipe
-
-&#x20;  └── Flask
-
-&#x20;  │
-
-&#x20;  ▼
-
-🎨 Local Canvas
-
-```
-
-
-
-\*\*No camera video is uploaded or stored by 0xAirCanvas.\*\*
-
-
-
-\---
-
-
-
-\# 🛣️ Roadmap
-
-
-
-```text
-
-CURRENT
-
-&#x20; │
-
-&#x20; ├── \[x] Real-time hand tracking
-
-&#x20; ├── \[x] Air drawing
-
-&#x20; ├── \[x] Gesture controls
-
-&#x20; ├── \[x] Custom brushes
-
-&#x20; ├── \[x] Colors
-
-&#x20; ├── \[x] Eraser
-
-&#x20; ├── \[x] Undo / Redo
-
-&#x20; └── \[x] PNG Export
-
-&#x20; │
-
-&#x20; ▼
-
-NEXT
-
-&#x20; │
-
-&#x20; ├── \[ ] Multi-hand drawing
-
-&#x20; ├── \[ ] Shape recognition
-
-&#x20; ├── \[ ] Air handwriting recognition
-
-&#x20; ├── \[ ] Gesture shortcuts
-
-&#x20; ├── \[ ] Drawing replay
-
-&#x20; ├── \[ ] Advanced brush effects
-
-&#x20; ├── \[ ] Image import
-
-&#x20; └── \[ ] AI-assisted drawing
-
-```
-
-
-
-\---
-
-
-
-\# 🌟 Why 0xAirCanvas?
-
-
+## 👨‍💻 Author
 
 <div align="center">
 
+### Abhishek Jadhav
 
+Creator of 0xAirCanvas — building creative projects with Python, AI, computer vision, and web technologies.
 
-\### \*\*Because creativity shouldn't require touching a screen.\*\*
-
-
-
-```text
-
-&#x20;     YOUR HAND
-
-&#x20;         ↓
-
-&#x20;     YOUR IDEA
-
-&#x20;         ↓
-
-&#x20;      THE AIR
-
-&#x20;         ↓
-
-&#x20;   ┌─────────────┐
-
-&#x20;   │  0xAirCanvas │
-
-&#x20;   └──────┬──────┘
-
-&#x20;          ↓
-
-&#x20;      ✨ ART ✨
-
-```
-
-
+[![GitHub](https://img.shields.io/badge/GitHub-%400xAbhi13-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xAbhi13)
 
 </div>
 
+## 📄 License
 
-
-\---
-
-
-
-\# 👨‍💻 Created By
-
-
+Released under the [MIT License](LICENSE).
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,100:00E5FF&height=120&section=footer" width="100%"/>
 
-
-\# Abhishek Jadhav
-
-
-
-\### `@0xAbhi13`
-
-
-
-\*\*Python · AI · Computer Vision · Web Development\*\*
-
-
-
-<br>
-
-
-
-\[!\[GitHub](https://img.shields.io/badge/GitHub-0xAbhi13-181717?style=for-the-badge\\\&logo=github)](https://github.com/0xAbhi13)
-
-
-
-<br>
-
-
-
-> Building creative software projects that turn ideas into experiences.
-
-
+**Made with ☝️ and a webcam.**
 
 </div>
-
-
-
-\---
-
-
-
-\# 📄 License
-
-
-
-This project is released under the \*\*MIT License\*\*.
-
-
-
-See \[`LICENSE`](LICENSE) for details.
-
-
-
-\---
-
-
-
-<div align="center">
-
-
-
-\### 🖐️ Made with Python, Computer Vision \& Imagination.
-
-
-
-\*\*`0xAirCanvas` · `@0xAbhi13`\*\*
-
-
-
-<br>
-
-
-
-⭐ \*\*Star the repository if you like the project!\*\*
-
-
-
-</div>
-
-
-
