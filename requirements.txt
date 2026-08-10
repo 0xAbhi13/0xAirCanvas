@@ -1,0 +1,7 @@
+Flask==3.0.3
+opencv-python==4.10.0.84
+# mediapipe>=0.10.21 drops the legacy `mediapipe.solutions` API on many
+# platforms/Python versions and only ships the new Tasks API. hand_tracker.py
+# supports both, so any 0.10.x release works.
+mediapipe>=0.10.14
+numpy==1.26.4

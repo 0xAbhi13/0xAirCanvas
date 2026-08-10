@@ -1,0 +1,28 @@
+# Environments
+venv/
+env/
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Downloaded MediaPipe model (fetched automatically on first run)
+assets/hand_landmarker.task
+assets/*.part
