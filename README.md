@@ -33,7 +33,7 @@
 
 ### 📚 Table of Contents
 
-[⚡ About](#-what-is-0xaircanvas) • [🎥 Demo](#-demo) • [✨ Features](#-features) • [🕹️ Gestures](#️-gesture-guide) • [🧠 How It Works](#-how-it-works) • [📦 Install](#-installation) • [▶️ Usage](#️-usage) • [⌨️ Shortcuts](#️-keyboard-shortcuts) • [🗂️ Structure](#️-project-structure) • [🛣️ Roadmap](#️-future-roadmap) • [📄 License](#-license)
+[⚡ About](#-what-is-0xaircanvas) • [✨ Features](#-features) • [🕹️ Gestures](#️-gesture-guide) • [🧠 How It Works](#-how-it-works) • [📦 Install](#-installation) • [▶️ Usage](#️-usage) • [⌨️ Shortcuts](#️-keyboard-shortcuts) • [🗂️ Structure](#️-project-structure) • [🛣️ Roadmap](#️-future-roadmap) • [📄 License](#-license)
 
 </div>
 
@@ -59,36 +59,6 @@ Under the hood, a Flask backend runs OpenCV + MediaPipe hand tracking on every c
 </div>
 
 <br/>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/pixel-line.gif" width="100%">
-</div>
-
-## 🎥 Demo
-
-<div align="center">
-
-<img src="https://placehold.co/720x405/0b1220/00e5ff?text=Add+assets%2Fdemo.gif&font=jetbrains-mono" width="720" alt="Demo placeholder — replace with assets/demo.gif"/>
-
-*No real demo is included yet — record one after running the app locally (see [`assets/README.md`](assets/README.md)), save it as `assets/demo.gif`, then replace the placeholder line above with:*
-```md
-<img src="assets/demo.gif" width="720" alt="0xAirCanvas demo — air-drawing in real time"/>
-```
-
-</div>
-
-## 📸 Preview
-
-<div align="center">
-
-<img src="https://placehold.co/720x405/0b1220/a855f7?text=Add+assets%2Fpreview.png&font=jetbrains-mono" width="720" alt="Preview placeholder — replace with assets/preview.png"/>
-
-*Add a real screenshot as `assets/preview.png` (see [`assets/README.md`](assets/README.md)), then swap the placeholder line above for:*
-```md
-<img src="assets/preview.png" width="720" alt="0xAirCanvas workspace preview"/>
-```
-
-</div>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/gifs/pixel-line.gif" width="100%">
